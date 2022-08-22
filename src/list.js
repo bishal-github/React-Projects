@@ -1,6 +1,6 @@
 import React from 'react'
 
-const list = ({people}) => {
+const List = ({people}) => {
   return (
     <React.Fragment>
       {people.map((person)=>{
@@ -20,4 +20,4 @@ const list = ({people}) => {
   )
 }
 
-export default list
+export default List;
